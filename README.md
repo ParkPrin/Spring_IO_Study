@@ -10,5 +10,5 @@ https://spring.io/guides
 
 [<h4>01 REST 웹 어플리케이션 시작</h4>](https://github.com/ParkPrin/Spring_IO_Study/tree/master/README%20%ED%8E%98%EC%9D%B4%EC%A7%80/chapter_01%20REST%20%EC%9B%B9%20%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%8B%9C%EC%9E%91)
 
-[<h4>02 Scheduling-Tasks</h4>](https://github.com/ParkPrin/Spring_IO_Study/tree/master/README%20%ED%8E%98%EC%9D%B4%EC%A7%80/chapter_01%20REST%20%EC%9B%B9%20%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%8B%9C%EC%9E%91)
+[<h4>02 Scheduling-Tasks</h4>](https://github.com/ParkPrin/Spring_IO_Study/tree/master/README%20%ED%8E%98%EC%9D%B4%EC%A7%80/chapter_02%20Scheduling-Tasks)
 
