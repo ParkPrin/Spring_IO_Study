@@ -54,8 +54,8 @@ public class Greeting {
 ## REST Controller 생성
 1. 생성 위치 아래와 같다.
 ```
-설명: {root project}/src/main/{사용하는 패키지명}/webservice/
-예시: /src/main/me/parkprin/webservice/
+설명: {root project}/src/main/{사용하는 패키지명}/controller/
+예시: /src/main/me/parkprin/controller/
 ``` 
 2. src/main/me/parkprin/webservice/GreetingController.java 생성
 3. GreetingController.java

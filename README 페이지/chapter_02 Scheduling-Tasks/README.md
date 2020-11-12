@@ -30,6 +30,14 @@ dependencies {
 예제에서는 5초마다 현재 시간을 콘솔에 찍는 기능을 구현하였다. 
 핵심 기능으로는 @Scheduled(fixedRate = 5000) 이다
 
+1. 생성 위치 아래와 같다.
+```
+설명: {root project}/src/main/{사용하는 패키지명}/schedulingtasks/
+예시: /src/main/me/parkprin/schedulingtasks/
+```
+2. src/main/me/parkprin/domain/ScheduledTasks.java 생성
+3. ScheduledTasks.java 
+
 ```
 package me.parkprin.schedulingtasks;
 

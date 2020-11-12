@@ -1,4 +1,4 @@
-package me.parkprin.restervice;
+package me.parkprin.controller;
 
 import me.parkprin.domain.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
