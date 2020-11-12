@@ -4,8 +4,18 @@
 https://spring.io/guides/gs/rest-service/
 
 ## 학습 진행 순서
-1. Domain 생성
-2. REST Controller 생성
+1. build.gradle 환경설정
+2. Domain 생성
+3. REST Controller 생성
+
+## build.gradle 환경설정
+
+스프링 부트를 REST 웹 어플리케이션에 대한 의존성을 추가한다
+```
+dependencies {
+    // 스프링 부트를 REST 웹 어플리케이션에 대한 의존성
+    implementation 'org.springframework.boot:spring-boot-starter-web' 
+```
 
 ## Domain 생성
 1. 생성 위치 아래와 같다.
