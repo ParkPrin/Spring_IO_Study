@@ -63,7 +63,7 @@ API 콜을 한다
 
 입력해야 하는 json 데이터는 다음과 같다
 
-![JWT 적용 후 결과확인 1단계](/img/readme/chapter04/JWT 적용 후 결과확인 1단계.png)
+
 ```
 {
     "username" : "javainuse",
@@ -71,21 +71,24 @@ API 콜을 한다
 }
 ```
 
+![JWT 적용 후 결과확인 1단계](../../img/readme/chapter04/JWT%20%EC%A0%81%EC%9A%A9%20%ED%9B%84%20%EA%B2%B0%EA%B3%BC%ED%99%95%EC%9D%B8%201%EB%8B%A8%EA%B3%84.png)
+
 2. authenticate API가 정상동작시 다음과 같은 형태로 Token이 발행된다.
-![JWT 적용 후 결과확인 2단계](/img/readme/chapter04/JWT 적용 후 결과확인 2단계.png)
 ```
 {
     "jwtToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJqYXZhaW51c2UiLCJleHAiOjE2MDUzMzAwODMsImlhdCI6MTYwNTMxMjA4M30.F0bYd6TI4ySb41eel-gsttDdoAd3w5WagJdSSBGwibLdcaP9s-MtyWrR674PR9qf5UyXAuwg92lb2kGcGlj0ag"
 }
 ```
+![JWT 적용 후 결과확인 2단계](../../img/readme/chapter04/JWT%20%EC%A0%81%EC%9A%A9%20%ED%9B%84%20%EA%B2%B0%EA%B3%BC%ED%99%95%EC%9D%B8%202%EB%8B%A8%EA%B3%84.png)
 
 3. 발급 받은 Token을 Headers 영역에 다음과 같이 입력한다
-![JWT 적용 후 결과확인 3단계](/img/readme/chapter04/JWT 적용 후 결과확인 3단계.png)
 
 ```
 key: Authorization
 value: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJqYXZhaW51c2UiLCJleHAiOjE2MDUyNTc1NjgsImlhdCI6MTYwNTIzOTU2OH0.ra--UhcBcv5CZnTyxuy71W75djSXIaAj2202Yv-XtJZ2nUH4qdzGkk3-QxSBccEJCGz7vUC7wdd2iyE8I0juCQ
 ```
+
+![JWT 적용 후 결과확인 3계](../../img/readme/chapter04/JWT%20%EC%A0%81%EC%9A%A9%20%ED%9B%84%20%EA%B2%B0%EA%B3%BC%ED%99%95%EC%9D%B8%203%EB%8B%A8%EA%B3%84.png)
 
 4. 원하는 API Call을 수행한다.
 
