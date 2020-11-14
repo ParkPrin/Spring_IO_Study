@@ -62,8 +62,8 @@ test {
 ## Spring Boot Application 클래스 생성
 1. 아래 경로로 Application 패키지를 만든다.
 ```
-설명: {root project}/src/main/{사용하는 패키지명}/Application
-예시: /src/main/me/parkprin/Application
+설명: {root project}/src/main/java/{사용하는 패키지명}/Application
+예시: /src/main/java/me/parkprin/Application
 ```
 
 2. Application 생성

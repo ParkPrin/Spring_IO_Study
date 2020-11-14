@@ -32,8 +32,8 @@ dependencies {
 
 1. 생성 위치 아래와 같다.
 ```
-설명: {root project}/src/main/{사용하는 패키지명}/schedulingtasks/
-예시: /src/main/me/parkprin/schedulingtasks/
+설명: {root project}/src/main/java/{사용하는 패키지명}/schedulingtasks/
+예시: /src/main/java/me/parkprin/schedulingtasks/
 ```
 2. src/main/me/parkprin/domain/ScheduledTasks.java 생성
 3. ScheduledTasks.java 

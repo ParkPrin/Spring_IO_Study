@@ -59,8 +59,8 @@ Domain 생성에 앞서 타서버에서 받을 JSON 데이터 형태 다시한�
 
 1. 생성 위치 아래와 같다.
 ```
-설명: {root project}/src/main/{사용하는 패키지명}/domain/
-예시: /src/main/me/parkprin/domain/
+설명: {root project}/src/main/java/{사용하는 패키지명}/domain/
+예시: /src/main/java/me/parkprin/domain/
 ```
 2. src/main/me/parkprin/domain/Quote.java, 
 src/main/me/parkprin/domain/Value.java 생성
@@ -152,8 +152,8 @@ public class Value {
 ## REST Controller 생성
 1. 생성 위치 아래와 같다.
 ```
-설명: {root project}/src/main/{사용하는 패키지명}/controller/
-예시: /src/main/me/parkprin/controller/
+설명: {root project}/src/main/java/{사용하는 패키지명}/controller/
+예시: /src/main/java/me/parkprin/controller/
 ``` 
 2. src/main/me/parkprin/webservice/QuoteController.java 생성
 3. QuoteController.java
