@@ -50,6 +50,9 @@ spring:
 
 
 ## JWT 적용 후 결과확인
+JWT 결과 확인을 위해서 Post 방식의 API 처리를 위해서 [Postman](https://www.postman.com/) 을 사용하였다.
+
+
 이전에 만들어 놓은 Greeting, Quote에 대한 API를 접근시
 해당하는 값에 대해서 값을 제공하였따.
 그러나 현재 JWT(Json Web Token) 적용한 경우, 우선적으로
